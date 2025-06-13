@@ -4,7 +4,9 @@ An extension that makes every thumbnail on youtube have Bocchi!
 Thanks to the peeps below for the base Implementation.
 
 DenzHa24: https://github.com/DenzHa24/kumify
-chikenuwu: https://github.com/IsaacSohn/Sechify
+
+chikenuwu: https://github.com/IsaacSohn/Sechify 
+
 Mrbeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
 ## Specific to this fork
