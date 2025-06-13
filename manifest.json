@@ -1,18 +1,16 @@
 {
-  "_comment": "this is p much the base stuff",
   "manifest_version": 3,
-  "name": "Kumify",
+  "name": "Bocchify",
   "version": "1.2.0",
   "icons": {
-    "128": "assets/icon/IconKumiko.png"
+    "128": "assets/icon/IconBocchi.png"
   },
-  "description": "Make every YouTube Thumbnail into Kumiko!",
+  "description": "Make every YouTube Thumbnail into Bocchi!",
   "host_permissions": ["https://www.youtube.com/*"],
   "permissions": [
     "storage"
   ],
 
-  "_comment1": "when it sees you on youtube.com(and its finished loading from document_idle), itll run main.js",  
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
@@ -20,7 +18,6 @@
       "run_at": "document_idle"
     }
   ],
-  "_comment2":"lets websites access these within the extension. in this case, ANY(matches) can access ANY(*) file in images that is a png",
   "web_accessible_resources": [
     {
       "resources": [
@@ -32,15 +29,13 @@
       "matches": ["<all_urls>"]
     }
   ],
-  "_comment3": "this is the button on the browser toolbar",
   "action": {
     "default_popup": "popup.html"
   },
-  "_comment4": "FIREFOX STUFF AYDGBCUASDFUYTXAFVSDYX",
 
   "browser_specific_settings": {
   "gecko": {
-    "id": "Kumify@Denzmar.com",
+    "id": "Bocchify@0xInstrumentarium.com",
     "strict_min_version": "109.0"
   }
 }
