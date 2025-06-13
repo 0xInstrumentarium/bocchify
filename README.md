@@ -1,12 +1,10 @@
 # Bocchify
-An extension that makes every thumbnail on youtube have bocchi!
+An extension that makes every thumbnail on youtube have Bocchi!
 
-I got inspired by chikenuwu and mrBeastify
-this was just forked from chikenuwu's implementation
-HUGE THANKS TO HIM
+Thanks to the peeps below for the base Implementation.
 
-chikenuwu: https://github.com/IsaacSohn/Sechify 
-
+DenzHa24: https://github.com/DenzHa24/kumify
+chikenuwu: https://github.com/IsaacSohn/Sechify
 Mrbeastify: https://github.com/MagicJinn/MrBeastify-Youtube
 
 ## Specific to this fork
